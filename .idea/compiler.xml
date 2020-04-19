@@ -11,8 +11,20 @@
       <entry name="!?*.kt" />
       <entry name="!?*.clj" />
     </wildcardResourcePatterns>
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="cloud-alibaba-consumer" />
+        <module name="cloud-alibaba-provider" />
+      </profile>
+    </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="cloud-alibaba" target="1.8" />
+      <module name="cloud-alibaba-consumer" target="1.8" />
+      <module name="cloud-alibaba-dependencies" target="1.5" />
+      <module name="cloud-alibaba-provider" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>

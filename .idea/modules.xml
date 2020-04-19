@@ -3,7 +3,9 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/cloud-alibaba.iml" filepath="$PROJECT_DIR$/cloud-alibaba.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/cloud_alibaba.iml" filepath="$PROJECT_DIR$/.idea/cloud_alibaba.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cloud-alibaba-consumer/cloud-alibaba-consumer.iml" filepath="$PROJECT_DIR$/cloud-alibaba-consumer/cloud-alibaba-consumer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cloud-alibaba-dependencies/cloud-alibaba-dependencies.iml" filepath="$PROJECT_DIR$/cloud-alibaba-dependencies/cloud-alibaba-dependencies.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cloud-alibaba-provider/cloud-alibaba-provider.iml" filepath="$PROJECT_DIR$/cloud-alibaba-provider/cloud-alibaba-provider.iml" />
     </modules>
   </component>
 </project>

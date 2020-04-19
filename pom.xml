@@ -25,6 +25,12 @@
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
     </properties>
 
+    <modules>
+        <module>cloud-alibaba-dependencies</module>
+        <module>cloud-alibaba-provider</module>
+        <module>cloud-alibaba-consumer</module>
+    </modules>
+
     <dependencies>
         <dependency>
             <groupId>org.springframework.boot</groupId>
